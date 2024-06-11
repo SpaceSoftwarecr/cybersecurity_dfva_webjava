@@ -8,7 +8,7 @@
 	http://www.springframework.org/schema/mvc
 	http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-	<context:component-scan base-package="dfva_webjava.java.demo.rest" />
+	<context:component-scan base-package="dfva_webjava.java.demo.controller" />
 	<mvc:annotation-driven />
  <bean id="viewResolver"
       class="org.springframework.web.servlet.view.UrlBasedViewResolver">
